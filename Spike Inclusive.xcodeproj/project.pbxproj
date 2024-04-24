@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		814FE7852BD9817B001E3EE3 /* Spike_InclusiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814FE7842BD9817B001E3EE3 /* Spike_InclusiveApp.swift */; };
+		814FE7872BD9817B001E3EE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814FE7862BD9817B001E3EE3 /* ContentView.swift */; };
+		814FE7892BD9817D001E3EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814FE7882BD9817D001E3EE3 /* Assets.xcassets */; };
+		814FE78C2BD9817D001E3EE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814FE78B2BD9817D001E3EE3 /* Preview Assets.xcassets */; };
+		814FE7962BD9817D001E3EE3 /* Spike_InclusiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814FE7952BD9817D001E3EE3 /* Spike_InclusiveTests.swift */; };
+		814FE7A02BD9817D001E3EE3 /* Spike_InclusiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814FE79F2BD9817D001E3EE3 /* Spike_InclusiveUITests.swift */; };
+		814FE7A22BD9817D001E3EE3 /* Spike_InclusiveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814FE7A12BD9817D001E3EE3 /* Spike_InclusiveUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		814FE7922BD9817D001E3EE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 814FE7792BD9817B001E3EE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 814FE7802BD9817B001E3EE3;
+			remoteInfo = "Spike Inclusive";
+		};
+		814FE79C2BD9817D001E3EE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 814FE7792BD9817B001E3EE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 814FE7802BD9817B001E3EE3;
+			remoteInfo = "Spike Inclusive";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		814FE7812BD9817B001E3EE3 /* Spike Inclusive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spike Inclusive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814FE7842BD9817B001E3EE3 /* Spike_InclusiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spike_InclusiveApp.swift; sourceTree = "<group>"; };
+		814FE7862BD9817B001E3EE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		814FE7882BD9817D001E3EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		814FE78B2BD9817D001E3EE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		814FE7912BD9817D001E3EE3 /* Spike InclusiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spike InclusiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814FE7952BD9817D001E3EE3 /* Spike_InclusiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spike_InclusiveTests.swift; sourceTree = "<group>"; };
+		814FE79B2BD9817D001E3EE3 /* Spike InclusiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spike InclusiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814FE79F2BD9817D001E3EE3 /* Spike_InclusiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spike_InclusiveUITests.swift; sourceTree = "<group>"; };
+		814FE7A12BD9817D001E3EE3 /* Spike_InclusiveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spike_InclusiveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		814FE77E2BD9817B001E3EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814FE78E2BD9817D001E3EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814FE7982BD9817D001E3EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		814FE7782BD9817B001E3EE3 = {
+			isa = PBXGroup;
+			children = (
+				814FE7832BD9817B001E3EE3 /* Spike Inclusive */,
+				814FE7942BD9817D001E3EE3 /* Spike InclusiveTests */,
+				814FE79E2BD9817D001E3EE3 /* Spike InclusiveUITests */,
+				814FE7822BD9817B001E3EE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		814FE7822BD9817B001E3EE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				814FE7812BD9817B001E3EE3 /* Spike Inclusive.app */,
+				814FE7912BD9817D001E3EE3 /* Spike InclusiveTests.xctest */,
+				814FE79B2BD9817D001E3EE3 /* Spike InclusiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		814FE7832BD9817B001E3EE3 /* Spike Inclusive */ = {
+			isa = PBXGroup;
+			children = (
+				814FE7842BD9817B001E3EE3 /* Spike_InclusiveApp.swift */,
+				814FE7862BD9817B001E3EE3 /* ContentView.swift */,
+				814FE7882BD9817D001E3EE3 /* Assets.xcassets */,
+				814FE78A2BD9817D001E3EE3 /* Preview Content */,
+			);
+			path = "Spike Inclusive";
+			sourceTree = "<group>";
+		};
+		814FE78A2BD9817D001E3EE3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				814FE78B2BD9817D001E3EE3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		814FE7942BD9817D001E3EE3 /* Spike InclusiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				814FE7952BD9817D001E3EE3 /* Spike_InclusiveTests.swift */,
+			);
+			path = "Spike InclusiveTests";
+			sourceTree = "<group>";
+		};
+		814FE79E2BD9817D001E3EE3 /* Spike InclusiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				814FE79F2BD9817D001E3EE3 /* Spike_InclusiveUITests.swift */,
+				814FE7A12BD9817D001E3EE3 /* Spike_InclusiveUITestsLaunchTests.swift */,
+			);
+			path = "Spike InclusiveUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		814FE7802BD9817B001E3EE3 /* Spike Inclusive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814FE7A52BD9817D001E3EE3 /* Build configuration list for PBXNativeTarget "Spike Inclusive" */;
+			buildPhases = (
+				814FE77D2BD9817B001E3EE3 /* Sources */,
+				814FE77E2BD9817B001E3EE3 /* Frameworks */,
+				814FE77F2BD9817B001E3EE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spike Inclusive";
+			productName = "Spike Inclusive";
+			productReference = 814FE7812BD9817B001E3EE3 /* Spike Inclusive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		814FE7902BD9817D001E3EE3 /* Spike InclusiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814FE7A82BD9817D001E3EE3 /* Build configuration list for PBXNativeTarget "Spike InclusiveTests" */;
+			buildPhases = (
+				814FE78D2BD9817D001E3EE3 /* Sources */,
+				814FE78E2BD9817D001E3EE3 /* Frameworks */,
+				814FE78F2BD9817D001E3EE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				814FE7932BD9817D001E3EE3 /* PBXTargetDependency */,
+			);
+			name = "Spike InclusiveTests";
+			productName = "Spike InclusiveTests";
+			productReference = 814FE7912BD9817D001E3EE3 /* Spike InclusiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		814FE79A2BD9817D001E3EE3 /* Spike InclusiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814FE7AB2BD9817D001E3EE3 /* Build configuration list for PBXNativeTarget "Spike InclusiveUITests" */;
+			buildPhases = (
+				814FE7972BD9817D001E3EE3 /* Sources */,
+				814FE7982BD9817D001E3EE3 /* Frameworks */,
+				814FE7992BD9817D001E3EE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				814FE79D2BD9817D001E3EE3 /* PBXTargetDependency */,
+			);
+			name = "Spike InclusiveUITests";
+			productName = "Spike InclusiveUITests";
+			productReference = 814FE79B2BD9817D001E3EE3 /* Spike InclusiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		814FE7792BD9817B001E3EE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					814FE7802BD9817B001E3EE3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					814FE7902BD9817D001E3EE3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 814FE7802BD9817B001E3EE3;
+					};
+					814FE79A2BD9817D001E3EE3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 814FE7802BD9817B001E3EE3;
+					};
+				};
+			};
+			buildConfigurationList = 814FE77C2BD9817B001E3EE3 /* Build configuration list for PBXProject "Spike Inclusive" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 814FE7782BD9817B001E3EE3;
+			productRefGroup = 814FE7822BD9817B001E3EE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				814FE7802BD9817B001E3EE3 /* Spike Inclusive */,
+				814FE7902BD9817D001E3EE3 /* Spike InclusiveTests */,
+				814FE79A2BD9817D001E3EE3 /* Spike InclusiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		814FE77F2BD9817B001E3EE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814FE78C2BD9817D001E3EE3 /* Preview Assets.xcassets in Resources */,
+				814FE7892BD9817D001E3EE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814FE78F2BD9817D001E3EE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814FE7992BD9817D001E3EE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		814FE77D2BD9817B001E3EE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814FE7872BD9817B001E3EE3 /* ContentView.swift in Sources */,
+				814FE7852BD9817B001E3EE3 /* Spike_InclusiveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814FE78D2BD9817D001E3EE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814FE7962BD9817D001E3EE3 /* Spike_InclusiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814FE7972BD9817D001E3EE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814FE7A22BD9817D001E3EE3 /* Spike_InclusiveUITestsLaunchTests.swift in Sources */,
+				814FE7A02BD9817D001E3EE3 /* Spike_InclusiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		814FE7932BD9817D001E3EE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 814FE7802BD9817B001E3EE3 /* Spike Inclusive */;
+			targetProxy = 814FE7922BD9817D001E3EE3 /* PBXContainerItemProxy */;
+		};
+		814FE79D2BD9817D001E3EE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 814FE7802BD9817B001E3EE3 /* Spike Inclusive */;
+			targetProxy = 814FE79C2BD9817D001E3EE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		814FE7A32BD9817D001E3EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		814FE7A42BD9817D001E3EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		814FE7A62BD9817D001E3EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spike Inclusive/Preview Content\"";
+				DEVELOPMENT_TEAM = ZHHQCL79W2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryBonomolo.Spike-Inclusive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		814FE7A72BD9817D001E3EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spike Inclusive/Preview Content\"";
+				DEVELOPMENT_TEAM = ZHHQCL79W2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryBonomolo.Spike-Inclusive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		814FE7A92BD9817D001E3EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZHHQCL79W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryBonomolo.Spike-InclusiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spike Inclusive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spike Inclusive";
+			};
+			name = Debug;
+		};
+		814FE7AA2BD9817D001E3EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZHHQCL79W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryBonomolo.Spike-InclusiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spike Inclusive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spike Inclusive";
+			};
+			name = Release;
+		};
+		814FE7AC2BD9817D001E3EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZHHQCL79W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryBonomolo.Spike-InclusiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spike Inclusive";
+			};
+			name = Debug;
+		};
+		814FE7AD2BD9817D001E3EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZHHQCL79W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HenryBonomolo.Spike-InclusiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spike Inclusive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		814FE77C2BD9817B001E3EE3 /* Build configuration list for PBXProject "Spike Inclusive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814FE7A32BD9817D001E3EE3 /* Debug */,
+				814FE7A42BD9817D001E3EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814FE7A52BD9817D001E3EE3 /* Build configuration list for PBXNativeTarget "Spike Inclusive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814FE7A62BD9817D001E3EE3 /* Debug */,
+				814FE7A72BD9817D001E3EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814FE7A82BD9817D001E3EE3 /* Build configuration list for PBXNativeTarget "Spike InclusiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814FE7A92BD9817D001E3EE3 /* Debug */,
+				814FE7AA2BD9817D001E3EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814FE7AB2BD9817D001E3EE3 /* Build configuration list for PBXNativeTarget "Spike InclusiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814FE7AC2BD9817D001E3EE3 /* Debug */,
+				814FE7AD2BD9817D001E3EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 814FE7792BD9817B001E3EE3 /* Project object */;
+}
